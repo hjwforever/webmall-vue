@@ -3,9 +3,9 @@
     <header class="home-header wrap" :class="{'active' : headerScroll}">
         <router-link tag="i" to="./category"><i class="nbicon nbmenu2"></i></router-link>
         <div class="header-search">
-            <span class="app-name">新蜂商城</span>
+            <span class="app-name">WebMall</span>
             <i class="iconfont icon-search"></i>
-            <router-link tag="span" class="search-title" to="./product-list?from=home">山河无恙，人间皆安</router-link>
+            <router-link tag="span" class="search-title" to="./product-list?from=home">商品搜索</router-link>
         </div>
         <router-link class="login" tag="span" to="./login" v-if="!isLogin">登录</router-link>
         <router-link class="login" tag="span" to="./user" v-else>
@@ -17,7 +17,7 @@
     <div class="category-list">
       <div v-for="item in categoryList" v-bind:key="item.categoryId">
         <img :src="item.imgUrl">
-        <span>{{item.name}}</span>
+        <span>{{item.name.replace(/新蜂/, "WM")}}</span>
       </div>
     </div>
     <div class="good">

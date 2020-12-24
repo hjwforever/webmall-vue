@@ -1,7 +1,7 @@
 <template>
   <div class="login">
     <s-header :name="type == 'login' ? '登录' : '注册'" :back="'/home'"></s-header>
-    <img class="logo" src="//s.weituibao.com/1582958061265/mlogo.png" alt="">
+    <img class="logo" src="../../public/logo.png" alt="">
     <div v-if="type == 'login'" class="login-body login">
       <van-form @submit="onSubmit">
         <van-field
