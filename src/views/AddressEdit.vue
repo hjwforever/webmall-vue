@@ -91,7 +91,6 @@ export default {
   },
   methods: {
     async onSave(content) {
-      console.log('content', content)
       const params = {
         userName: content.name,
         userPhone: content.tel,
