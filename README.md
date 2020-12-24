@@ -1,8 +1,8 @@
-![](static-files/WebMall.png)
+WebMall 项目是一套简易的商城系统，包括 WebMall 商城系统及 WebMall-admin 商城后台管理系统，基于 Spring Boot 2.X 和 Vue 以及相关技术栈开发。<br>
+前台商城系统包含首页门户、商品分类、新品上线、首页轮播、商品推荐、商品搜索、商品展示、购物车、订单结算、订单流程、个人订单管理、会员中心、帮助中心等模块。<br>
+后台管理系统包含数据面板、轮播图管理、商品管理、订单管理、会员管理、分类管理、设置等模块。
 
-WebMall 项目是一套电商系统，包括 WebMall 商城系统及 WebMall-admin 商城后台管理系统，基于 Spring Boot 2.X 和 Vue 以及相关技术栈开发。 前台商城系统包含首页门户、商品分类、新品上线、首页轮播、商品推荐、商品搜索、商品展示、购物车、订单结算、订单流程、个人订单管理、会员中心、帮助中心等模块。 后台管理系统包含数据面板、轮播图管理、商品管理、订单管理、会员管理、分类管理、设置等模块。
-
-本仓库中的源码为WebMall商城前后端分离版本的 Vue 项目（Vue 版本为 2.x），主要面向前端开发人员，后端 API 源码在另外一个仓库 [WebMall-api](https://github.com/newbee-ltd/WebMall-api)。
+本仓库中的源码为WebMall商城前后端分离版本的 Vue 项目（Vue 版本为 2.x），主要面向前端开发人员，后端 API 源码在另外一个仓库 [WebMall-api](https://github.com/Kapiushon-HLT/WebMall)。
 
 WebMall商城 Vue 版本线上预览地址，账号可自行注册，建议使用手机模式打开。
 
