@@ -17,7 +17,7 @@
     <div class="category-list">
       <div v-for="item in categoryList" v-bind:key="item.categoryId">
         <img :src="item.imgUrl">
-        <span>{{item.name.replace(/新蜂/, "WM")}}</span>
+        <span>{{item.name}}</span>
       </div>
     </div>
     <div class="good">
@@ -78,11 +78,11 @@ export default {
       recommends: [],
       categoryList: [
           {
-            name: '新蜂超市',
+            name: 'WM超市',
             imgUrl: '//s.weituibao.com/1583585285461/cs.png',
             categoryId: 100001
           }, {
-            name: '新蜂服饰',
+            name: 'WM服饰',
             imgUrl: '//s.weituibao.com/1583585285468/fs.png',
             categoryId: 100003
           }, {
@@ -90,11 +90,11 @@ export default {
             imgUrl: '//s.weituibao.com/1583585285470/qq.png',
             categoryId: 100002
           }, {
-            name: '新蜂生鲜',
+            name: 'WM生鲜',
             imgUrl: '//s.weituibao.com/1583585285472/sx.png',
             categoryId: 100004
           }, {
-            name: '新蜂到家',
+            name: 'WM到家',
             imgUrl: '//s.weituibao.com/1583585285467/dj.png',
             categoryId: 100005
           }, {

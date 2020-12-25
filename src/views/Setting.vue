@@ -30,7 +30,7 @@ export default {
   async mounted() {
     const { data } = await getUserInfo()
     this.nickName = data.nickName
-    this.introduceSign = data.introduceSign.replace(/蜂/,'丰')
+    this.introduceSign = data.introduceSign
   },
   methods: {
     async save() {

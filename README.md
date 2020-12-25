@@ -1,3 +1,10 @@
+- [WebMall](#webmall)
+  - [简介](#%E7%AE%80%E4%BB%8B)
+  - [前端主要相关技术](#%E5%89%8D%E7%AB%AF%E4%B8%BB%E8%A6%81%E7%9B%B8%E5%85%B3%E6%8A%80%E6%9C%AF)
+  - [前端项目结构树](#%E5%89%8D%E7%AB%AF%E9%A1%B9%E7%9B%AE%E7%BB%93%E6%9E%84%E6%A0%91)
+  - [页面展示](#%E9%A1%B5%E9%9D%A2%E5%B1%95%E7%A4%BA)
+  - [后端接口部分图(Swagger生成)](#%E5%90%8E%E7%AB%AF%E6%8E%A5%E5%8F%A3%E9%83%A8%E5%88%86%E5%9B%BEswagger%E7%94%9F%E6%88%90)
+
 # WebMall
 
 组长:[@Kapiushon-HLT](https://github.com/Kapiushon-HLT/WebMall)  
@@ -6,11 +13,14 @@
 ## 简介
 
 WebMall 项目是一个简易的商城系统，采用前后端分离，基于 前端 Vue 及 后端 Spring Boot 2.X 以及相关技术栈开发。  
+
 前台商城系统包含首页门户、商品分类、新品上线、首页轮播、商品推荐、商品搜索、商品展示、购物车、订单结算、订单流程、个人订单管理、会员中心、帮助中心等模块。  
+
 后台管理系统包含数据面板、轮播图管理、商品管理、订单管理、会员管理、分类管理、设置等模块。
 本仓库中为 WebMall 商城前端的 Vue 项目;
 
 后端基于Spring Boot 的api项目仓库地址:[Kapiushon-HLT/WebMall-api](https://github.com/Kapiushon-HLT/WebMall-api)
+后端[在线接口文档](http://api.aruoxi.top:28019/swagger-ui.html)  
 
 WebMall 商城 Vue 版本线上预览地址[WebMall](https://webmall.aruoxi.top)，账号可自行注册，建议使用手机模式打开。
 
@@ -147,5 +157,5 @@ WebMall 商城 Vue 版本线上预览地址[WebMall](https://webmall.aruoxi.top)
 ![订单详情](http://img.aruoxi.top/webmall-vue/%E8%AE%A2%E5%8D%95%E8%AF%A6%E6%83%85.png)
 
 ## 后端接口部分图(Swagger生成)
-__!! 详情请看->__[在线接口文档](http://47.94.235.82:28019/swagger-ui.html)
+__!! 详情请看->__[在线接口文档](http://api.aruoxi.top:28019/swagger-ui.html)
 ![后端接口部分图(Swagger生成)](http://img.aruoxi.top/webmall-vue/WebMall-api-swagger.png)
