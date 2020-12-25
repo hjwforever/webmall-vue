@@ -10,7 +10,7 @@ WebMall 项目是一个简易的商城系统，采用前后端分离，基于 �
 后台管理系统包含数据面板、轮播图管理、商品管理、订单管理、会员管理、分类管理、设置等模块。
 本仓库中为 WebMall 商城前端的 Vue 项目;
 
-后端 api 服务器项目仓库地址:[Kapiushon-HLT/WebMall-api](https://github.com/Kapiushon-HLT/WebMall-api)
+后端基于Spring Boot 的api项目仓库地址:[Kapiushon-HLT/WebMall-api](https://github.com/Kapiushon-HLT/WebMall-api)
 
 WebMall 商城 Vue 版本线上预览地址[WebMall](https://webmall.aruoxi.top)，账号可自行注册，建议使用手机模式打开。
 
