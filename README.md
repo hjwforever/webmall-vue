@@ -146,3 +146,7 @@ WebMall 商城 Vue 版本线上预览地址[WebMall](https://webmall.aruoxi.top)
 - 订单详情
 
 ![订单详情](http://img.aruoxi.top/webmall-vue/%E8%AE%A2%E5%8D%95%E8%AF%A6%E6%83%85.png)
+
+## 后端接口部分图(Swagger生成)
+
+![后端接口部分图(Swagger生成)](http://img.aruoxi.top/webmall-vue/WebMall-api-swagger.png)
