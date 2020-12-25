@@ -1,4 +1,4 @@
-replace<template>
+<template>
   <div class="cart-box">
     <s-header :name="'购物车'"></s-header>
     <div class="cart-body">
