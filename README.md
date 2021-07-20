@@ -22,7 +22,7 @@ WebMall 项目是一个简易的商城系统，采用前后端分离，基于 �
 后端基于Spring Boot 的api项目仓库地址:[Kapiushon-HLT/WebMall-api](https://github.com/Kapiushon-HLT/WebMall-api)
 后端[在线接口文档](http://api.aruoxi.top:28019/swagger-ui.html)  
 
-WebMall 商城 Vue 版本线上预览地址[WebMall](http://webmall.aruoxi.top)，账号可自行注册，建议使用手机模式打开。
+~~WebMall 商城 Vue 版本线上预览地_[WebMall](http://webmall.aruoxi.top)，账号可自行注册，建议使用手机模式打开。~~
 
 ## 前端主要相关技术
 
